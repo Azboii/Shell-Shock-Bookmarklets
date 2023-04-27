@@ -1,0 +1,1 @@
+javascript:var s=document.createElement("script");s.type="text/javascript";var code='function yourFunction(){\n        document.getElementById("scopeBorder").style.display = "none";\n        setTimeout(yourFunction, 50);\n    }\n\n    yourFunction();';try{s.appendChild(document.createTextNode(code)),document.body.appendChild(s)}catch(e){s.text=code,document.body.appendChild(s)}
