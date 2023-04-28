@@ -44,3 +44,4 @@ try {
 } catch (e) {
     s.text = code, document.body.appendChild(s)
 }
+alert("Patches Applied!");
