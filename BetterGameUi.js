@@ -8,13 +8,11 @@ var code = 'function yourFunction() {
 document.getElementsByClassName("social-icons box_absolute")[0].style.display = "none";
 document.getElementById("gameDescription").style.display = "none";
 document.getElementsByClassName("vip-club-cta")[0].style.display = "none";
+document.getElementsByClassName("secondary-aside")[0].style.display = "none";
 
+document.getElementsByClassName("footer-nav text-center")[0].style.display = "none";
 
 //In Game
-document.getElementsByClassName("chw-progress-bar-msg box_aboslute centered nospace text-center fullwidth chw-msg chw-p-msg text-shadow-black-40")[0].innerhtml = "";
-document.getElementsByClassName("centered_y chw-egg-bundle")[0].style.display = "none";
-
-document.getElementsByClassName("double-eggs f_row align-items-center")[0].style.display = "none"; //this might change
 
 //Uncomment these lines if you want to hide chat
 //document.getElementsByClassName("chat-container")[0].style.display = "none";
@@ -34,9 +32,8 @@ weapondivs[4].style.display = "none"; //Whipper
 //weapondivs[5].style.display = "none"; //Crackshot
 weapondivs[6].style.display = "none"; //Tri-Hard
 
-setTimeout(yourFunction, 50);
-
 }
+
 yourFunction();
 ';
 try {
